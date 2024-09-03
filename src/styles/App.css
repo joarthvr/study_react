@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  max-width: 80vw;
+  margin: auto;
+}
+.main > h1 {
+  text-align: center;
+  padding: 2rem;
+}
+.sec1 {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 1rem; */
+}
+@media (max-width: 1200px) {
+  .sec1 {
+    flex-direction: column;
+  }
+  .main {
+    max-width: 40vw;
+  }
+}

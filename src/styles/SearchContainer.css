@@ -1,0 +1,27 @@
+li {
+  list-style: none;
+}
+.search-con {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem;
+  min-width: 400px;
+}
+.search-con-input {
+  width: 75%;
+  height: 40px;
+  padding: 0.5rem;
+  border: none;
+  background-color: rgb(214, 234, 248);
+  border-radius: 10px;
+}
+.whole-list-see-btn {
+  color: rgb(246, 238, 238);
+  background-color: rgb(3, 129, 247);
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}

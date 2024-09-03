@@ -1,0 +1,38 @@
+label {
+  display: block;
+  white-space: nowrap;
+  padding: 0.5rem;
+}
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.3rem;
+  width: 100%;
+}
+.input-box-input {
+  width: 300px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.select-box {
+  display: flex;
+  justify-content: space-between;
+  width: 74.5%;
+  gap: 1rem;
+}
+
+.group-select-box {
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.group-select-box-select {
+  width: 55%;
+}
+.group-select-box-addBtn {
+  width: 45%;
+  padding: 0.5rem;
+}
